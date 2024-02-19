@@ -11,9 +11,9 @@ const app = new Application({
 
 const clampy: Sprite = Sprite.from("./clampy.png");
 
-clampy.anchor.set(0.5);
+clampy.anchor.set(0);
 
-clampy.x = 250
-clampy.y = 250
+clampy.x = 0
+clampy.y = 0
 
 app.stage.addChild(clampy);
