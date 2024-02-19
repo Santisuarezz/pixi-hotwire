@@ -13,7 +13,7 @@ Loader.shared.add({URL: "./clampy.png", name: "clampy" })
 Loader.shared.add({URL: "./dino.webp", name: "mi dino" })
 
 
-const clampy: Sprite = Sprite.from("./clampy.png");
+const clampy: Sprite = Sprite.from("./dino.webp");
 
 console.log("bienvenidos!", clampy.width, clampy.height); 
 
