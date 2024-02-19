@@ -13,7 +13,7 @@ const clampy: Sprite = Sprite.from("./clampy.png");
 
 clampy.anchor.set(0.5);
 
-clampy.x = 300
-clampy.y = 300
+clampy.x = 250
+clampy.y = 250
 
 app.stage.addChild(clampy);
